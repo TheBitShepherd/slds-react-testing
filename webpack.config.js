@@ -7,7 +7,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         include: [
-          path.join(__dirnam, 'src'),
+          path.join(__dirname, 'src'),
           path.join(__dirname, 'node_modules/@salesforce/design-system-react'),
         ],
         use: {
